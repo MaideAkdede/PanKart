@@ -6,6 +6,8 @@
 
 ![Pankart logo](/files/pankart_petit.jpg)
 
+[Voir plan du site (structure)](./md/STRUCTURE.md)
+
 ***
 
 # BRIEF CLIENT ET CAHIER DES CHARGES
@@ -48,11 +50,14 @@
 
 ## Souhaits
 
+- nom de domaine : pankart.be
 - Site web responsive
 - Peut être mis à jour sans l'aide d'un tech (CMS : Wordpress)
 - construire en éco conception [artcile](https://eco-mobile.org/comment-et-pourquoi-creer-un-site-ecologique)
 - reprendre couleurs de la charte graphique
 - Peut être même **Design Sonore**
+- Pas de style exclusif à suivre
+- référencement
 - Site moderne qui ne fait pas fuir direct
 
 - Pas de e-shop mais peut être donner la possibilité de commander via un formulaire de contact pour les EP, merchandising
@@ -61,17 +66,22 @@
 
 - Groupe **engagé** (éco conception, durabilité, écologie)
 - Rock Celtique
+- Tiennent à leurs valeurs
 
 ## Objectif
 
 - Avoir un MAX de date
+- Style de musique (instruments hors du commun)
 
 ## Public cible
 
+- Tout public confondu
 - Pas les pré-ados !
 
 
 ## Pages
+
+> [Voir plan du site (structure)](./md/STRUCTURE.md)
 
 - Landing page
 - Lyrics
@@ -83,7 +93,7 @@
 - Page photo (gallerie photo)
 - Page vidéo (gallerie vidéo)
 - Page Presse
-- Page instruments utilisés 
+- Page instruments utilisés
 - Page contact
 - Page agenda de concert
 - Page booking : :v: envoyer vers gigstarter et faire un form pour réserver
