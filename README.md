@@ -1,19 +1,32 @@
 # Projet Panꓘart
 
-> PanKart, jeune groupe belge issu de la province de Luxembourg, chante en français, mais sa musique est un langage universel. Ses sonorités sont celtiques, rock et festives. Ses textes, **engagés** et **dénonciateurs** des choses qui, quand elles ne tournent pas rond, tournent en rond…
+> Il s'agit d'un Projet Client à réaliser pour le cours de Design Web : [hepl-dw/Projet-Pankart](https://github.com/hepl-dw/projet-pankart)
 
-> [Vidéo Brief Clip](https://www.youtube.com/watch?v=LiKDvz-PMRM)
+> Ce repo-ci suivra l'avancée du projet
+
+> Dans ce **README** se trouve une brève présentation de PanKart, ainsi que mes prises de [notes](#mes-notes)
+
+**Autres fichiers .md :**
+
+1. [Plan du site et Concept](./md/STRUCTURE.md)
+2. [MoodBoard](./md/MOODBOARD.md)
+
+***
+
+# PanKart
 
 ![Pankart logo](/files/pankart_petit.jpg)
 
-[Voir plan du site (structure)](./md/STRUCTURE.md)
+## Qui sont-ils ?
 
-***
+PanKart, jeune groupe belge issu de la province de Luxembourg, chante en français, mais sa musique est un langage universel. Ses sonorités sont celtiques, rock et festives. Ses textes, **engagés** et **dénonciateurs** des choses qui, quand elles ne tournent pas rond, tournent en rond…
+
+> [Vidéo Brief Clip](https://www.youtube.com/watch?v=LiKDvz-PMRM)
 
 # BRIEF CLIENT ET CAHIER DES CHARGES
 
 > Cette section reprend ce qui dans le cahier des charges que vous retrouverez ici :point_right: [Télécharger le cahier des charges .docx reçu](./files/brief_projet_website_pankart_2021_02_12.docx)\
-> Jy ajouterai également ce qui s'est dit lors du brief.\
+> J'y ajouterai également ce qui s'est dit lors du brief.\
 > Mes notes et commentaires seront rédigés plus bas [ici](#mes-notes)
 
 ## Retrouver PanKart sur :
@@ -53,7 +66,7 @@
 - nom de domaine : pankart.be
 - Site web responsive
 - Peut être mis à jour sans l'aide d'un tech (CMS : Wordpress)
-- construire en éco conception [artcile](https://eco-mobile.org/comment-et-pourquoi-creer-un-site-ecologique)
+- construire en éco conception [article](https://eco-mobile.org/comment-et-pourquoi-creer-un-site-ecologique)
 - reprendre couleurs de la charte graphique
 - Peut être même **Design Sonore**
 - Pas de style exclusif à suivre
@@ -70,8 +83,13 @@
 
 ## Objectif
 
+
 - Avoir un MAX de date
-- Style de musique (instruments hors du commun)
+  - être visible
+  - montrer qui est PanKart
+  - style de musique
+  - disponibilité   
+
 
 ## Public cible
 
@@ -125,6 +143,7 @@
 - [Rage Against The Machine](https://www.ratm.com/)
 - [Metallica](https://www.metallica.com/)
 - [U2](https://www.u2.com/)
+- [Powerwolf](https://www.powerwolf.net/)
 
 ## Articles à lire qui peut aider à avancer dans le projets
 

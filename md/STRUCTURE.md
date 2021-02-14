@@ -1,6 +1,16 @@
-# Structure / Plan du site
+# Structure, Plan du site, Concept
 
 > [Retourner au brief et notes](https://github.com/MaideAkdede/PanKart)
+
+**Autres .md:**
+1. [README principal + prise de notes](https://github.com/MaideAkdede/PanKart/blob/main/README.md)
+2. [Moodboard](./MOODBOARD.md)
+
+**Sommaires :**
+
+1. [Structure du Client](#structurdu-client)
+2. [Plan du site](#plan-du-site)
+3. [Concept](#concept)
 
 ***
 
@@ -29,7 +39,9 @@
 
 ***
 
-# STRUCTURE
+# Plan du site
+
+> Établi d'après celui du client
 
 - Page agenda concert
 - Page paroles de leurs chansons
@@ -48,3 +60,12 @@
   - Renvoyez vers leur Gigstarter
   - Formaulaire de contact pour réserver
 - Page Private Policy
+
+***
+
+# Concept
+
+> Un concept c'est un texte écrit continu qui décrit de façon textuel l'expérience utilisateur à avoir au travers des pages. Décrire les différentes pages qui existent, interactions entre celles-ci, visuel prédominant, story telling, ...
+
+
+## Homepage
