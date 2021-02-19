@@ -9,7 +9,7 @@
 **Autres fichiers .md :**
 
 1. [Plan du site et Concept](./md/STRUCTURE.md)
-2. [MoodBoard](./md/MOODBOARD.md)
+2. [MoodBoard Milanote](https://app.milanote.com/publish-preview/1Ld0eK1FRpgi9v)
 
 ***
 
@@ -139,11 +139,18 @@ PanKart, jeune groupe belge issu de la province de Luxembourg, chante en frança
 
 ## Sites inspirations envisageable (moi)
 
+sites chateurs/groupes:
+
 - [KermesZ à l'Est](https://kermeszalest.com/fr)
 - [Rage Against The Machine](https://www.ratm.com/)
 - [Metallica](https://www.metallica.com/)
 - [U2](https://www.u2.com/)
 - [Powerwolf](https://www.powerwolf.net/)
+- [Papa Roach](https://paparoachmerch.com/)
+- [forest nationnal](http://www.forest-national.be/fr)
+- [bb](https://breakingbenjamin.com/news/)
+- [papa roach](https://paparoachmerch.com/)
+- [Green Days](https://greenday.com/)
 
 ## Articles à lire qui peut aider à avancer dans le projets
 
