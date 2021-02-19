@@ -4,7 +4,7 @@
 
 **Autres .md:**
 1. [README principal + prise de notes](https://github.com/MaideAkdede/PanKart/blob/main/README.md)
-2. [Moodboard Milanote](https://app.milanote.com/publish-preview/1Ld0eK1FRpgi9v)
+2. [Moodboard Milanote](https://app.milanote.com/1Ld0eK1FRpgi9v?p=EAASJw7nFsv)
 
 **Sommaires :**
 

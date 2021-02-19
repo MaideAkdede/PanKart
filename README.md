@@ -9,7 +9,7 @@
 **Autres fichiers .md :**
 
 1. [Plan du site et Concept](./md/STRUCTURE.md)
-2. [MoodBoard Milanote](https://app.milanote.com/publish-preview/1Ld0eK1FRpgi9v)
+2. [MoodBoard Milanote](https://app.milanote.com/1Ld0eK1FRpgi9v?p=EAASJw7nFsv)
 
 ***
 
