@@ -18,7 +18,13 @@ PanKart, jeune groupe belge issu de la province de Luxembourg, chante en frança
 
 > [Vidéo Brief Clip](https://www.youtube.com/watch?v=LiKDvz-PMRM)
 
-## 2. Cahier des charges et Briefs
+## 2. Public cible
+
+  - Tout public confondu
+  - Pas les pré-ados !
+
+
+## 3. Cahier des charges et Briefs
 
 >  :point_right: [Télécharger le cahier des charges .docx reçu](./files/brief_projet_website_pankart_2021_02_12.docx)
 
@@ -41,78 +47,72 @@ PanKart, jeune groupe belge issu de la province de Luxembourg, chante en frança
 
 2. Informations sur le groupe
 
-  - Premier EP sorti en avril 2020
-  - Concours européen remporté en décembre 2020
+    - Premier EP sorti en avril 2020
+    - Concours européen remporté en décembre 2020
 
 
 3. Charte graphique
 
-  - P et K majuscule et K mirrored :point_right:  **Panꓘart**
-  - 2 couleurs (celles du LOGO)
+    - P et K majuscule et K mirrored :point_right:  **Panꓘart**
+    - 2 couleurs (celles du LOGO)
 
 
 4. Souhaits de choses qu'ils souhaitent retrouver
 
-  - nom de domaine : pankart.be
-  - Site web responsive
-  - Peut être mis à jour sans l'aide d'un tech (CMS : Wordpress)
-  - construire en éco conception [article](https://eco-mobile.org/comment-et-pourquoi-creer-un-site-ecologique)
-  - reprendre couleurs de la charte graphique
-  - Peut être même **Design Sonore**
-  - Pas de style exclusif à suivre
-  - référencement
-  - Site moderne qui ne fait pas fuir direct
-  - Pas de e-shop mais peut être donner la possibilité de commander via un formulaire de contact pour les EP, merchandising
+    - nom de domaine : pankart.be
+    - Site web responsive
+    - Peut être mis à jour sans l'aide d'un tech (CMS : Wordpress)
+    - construire en éco conception [article](https://eco-mobile.org/comment-et-pourquoi-creer-un-site-ecologique)
+    - reprendre couleurs de la charte graphique
+    - Peut être même **Design Sonore**
+    - Pas de style exclusif à suivre
+    - référencement
+    - Site moderne qui ne fait pas fuir direct
+    - Pas de e-shop mais peut être donner la possibilité de commander via un formulaire de contact pour les EP, merchandising
 
 
 5. Mettre en avant
 
-- Groupe **engagé** (éco conception, durabilité, écologie)
-- Rock Celtique
-- Tiennent à leurs valeurs
+    - Groupe **engagé** (éco conception, durabilité, écologie)
+    - Rock Celtique
+    - Tiennent à leurs valeurs
 
 6. Objectif
 
 
-- Avoir un MAX de date
-  - être visible
-  - montrer qui est PanKart
-  - style de musique
-  - disponibilité   
+    - Avoir un MAX de date
+      - être visible
+      - montrer qui est PanKart
+      - style de musique
+      - disponibilité   
 
 
-7. Public cible
+7. Pages
 
-- Tout public confondu
-- Pas les pré-ados !
+    - Landing page
+    - Lyrics
+    - Mettre tous les liens ou on peut les retrouver (style FB IG Spotify réseauc socieux, streaming, apps etc)
+    - Page bio du Groupe
+    - Page individuelle pour les chaque membres
+    - page NEWS en rapport au groupe
+    - Page coups de coeur et coups de gueuler (style blog ou twitter, 1 image avec texte qui l'accompagne)
+    - Page photo (gallerie photo)
+    - Page vidéo (gallerie vidéo)
+    - Page Presse
+    - Page instruments utilisés
+    - Page contact
+    - Page agenda de concert
+    - Page booking : :v: envoyer vers gigstarter et faire un form pour réserver
+    - Page private policy (RGPD)
 
+8. Sites inspirations (client)
 
-8. Pages
-
-  - Landing page
-  - Lyrics
-  - Mettre tous les liens ou on peut les retrouver (style FB IG Spotify réseauc socieux, streaming, apps etc)
-  - Page bio du Groupe
-  - Page individuelle pour les chaque membres
-  - page NEWS en rapport au groupe
-  - Page coups de coeur et coups de gueuler (style blog ou twitter, 1 image avec texte qui l'accompagne)
-  - Page photo (gallerie photo)
-  - Page vidéo (gallerie vidéo)
-  - Page Presse
-  - Page instruments utilisés
-  - Page contact
-  - Page agenda de concert
-  - Page booking : :v: envoyer vers gigstarter et faire un form pour réserver
-  - Page private policy (RGPD)
-
-9. Sites inspirations (client)
-
-- [Foo Fighters](https://www.foofighters.com/)
-- [HolyHopCircus](https://www.holyhopcircus.be/)
+    - [Foo Fighters](https://www.foofighters.com/)
+    - [HolyHopCircus](https://www.holyhopcircus.be/)
 
 ***
 
-## 3. Plan du site
+## 4. Plan du site (TODO: a détailler)
 
 - Page d'accueil
   - Bannière tout au dessus de la page style publcité avec des informations comme quoi ils sont un groupe engagé
