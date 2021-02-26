@@ -23,20 +23,20 @@ PanKart, jeune groupe belge issu de la province de Luxembourg, chante en frança
 >  :point_right: [Télécharger le cahier des charges .docx reçu](./files/brief_projet_website_pankart_2021_02_12.docx)
 
 1. _Retrouvez PanKart sur :_
-  1. sites
-    - [Gigstarter PanKart](https://www.gigstarter.be/fr-BE/artistes/pankart)
-    - [Youtube PanKart](https://www.youtube.com/channel/UC7XhVCykTsQEJp6P0eTVfmQ)
-    - [Lampi PanKart](https://lampli.be/artist-profile/pankart/)
-  2. Réseaux Sociaux
-    - [FaceBook PanKart](https://www.facebook.com/PanKart/)
-    - [instagram PanKart](https://www.instagram.com/pankartmusicband/)
-  3. Streaming
-    - [Spotify](https://open.spotify.com/album/15EDw1ExEbLvtPYgWngsFk)
-    - [Deezer](https://www.deezer.com/fr/track/934885562?utm_source=deezer&utm_content=track-934885562&utm_term=108514421_1587654068&utm_medium=web)
-    - [Apple Music](https://music.apple.com/be/album/pankart-ep/1509177982?l=fr)
-    - [Amazon](https://www.amazon.fr/PanKart-Pankart/dp/B08797KN6B/ref=sr_1_1?dchild=1&keywords=Pankart&qid=1587653912&s=dmusic&search-type=ss&sr=1-1)
-    - [Google Play](https://play.google.com/store/apps/theme/promotion_gpm_shutdown_ctp)
-    - [SoundCloud](https://soundcloud.com/pankartband)
+    1. sites
+      - [Gigstarter PanKart](https://www.gigstarter.be/fr-BE/artistes/pankart)
+      - [Youtube PanKart](https://www.youtube.com/channel/UC7XhVCykTsQEJp6P0eTVfmQ)
+      - [Lampi PanKart](https://lampli.be/artist-profile/pankart/)
+    2. Réseaux Sociaux
+      - [FaceBook PanKart](https://www.facebook.com/PanKart/)
+      - [instagram PanKart](https://www.instagram.com/pankartmusicband/)
+    3. Streaming
+      - [Spotify](https://open.spotify.com/album/15EDw1ExEbLvtPYgWngsFk)
+      - [Deezer](https://www.deezer.com/fr/track/934885562?utm_source=deezer&utm_content=track-934885562&utm_term=108514421_1587654068&utm_medium=web)
+      - [Apple Music](https://music.apple.com/be/album/pankart-ep/1509177982?l=fr)
+      - [Amazon](https://www.amazon.fr/PanKart-Pankart/dp/B08797KN6B/ref=sr_1_1?dchild=1&keywords=Pankart&qid=1587653912&s=dmusic&search-type=ss&sr=1-1)
+      - [Google Play](https://play.google.com/store/apps/theme/promotion_gpm_shutdown_ctp)
+      - [SoundCloud](https://soundcloud.com/pankartband)
 
 
 2. Informations sur le groupe
