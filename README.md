@@ -120,15 +120,22 @@ PanKart, est un jeune groupe belge issu de la province de Luxembourg, chante en 
 ## 4. Plan du site
 
 1. **Page d'accueil**
-  - Bannière tout au dessus de la page style publicité avec des informations comme quoi c'est un groupe engagé
-  - Menu simple avec logo pour les pages principales du site (commun à toutes les pages)
+  - Menu simple avec logo pour les pages principales du site (commun à toutes les pages avec : ACCUEIL, BIO : groupe et membres, AGENDA, GALERIE : photos et vidéos, PLUS : Paroles, News, Coups de gueules/coeurs, Contactez-nous)
   - Grosse image pour montrer qui est le groupe
-  - Courte description du groupe avec un petit lien qui redirigera vers la page bio du groupe au cas où l'utilisateur voudrait en savoir plus après avoir lu la très courte description d'une seule phrase
-  - flèche qui indique qu'on peut scroll (glisser)
-  - **AGENDA**
-    - liste, avec date, lieu
+  - Gros titre : résumé du groupe 'groupe engagé + style musical'
+  - Section **AGENDA**
+    - liste de (dizaines de date), avec date, lieu
     - bouton pour réserver (renvoyer vers la plateforme pour réserver)
+    - Boutons (voir plus de date)
     - à la fin de la liste une phrase style "vous préférez nous nous contactez pour réserver ? envoyez-nous un message ici" (bouton qui va renvoyez à la page de contact)
+  - Section **Vidéo**
+    - Titre vidéo
+    - Dernière vidéos Youtube
+    - Lien voir toutes les vidéos : Youtube, page Galerie Vidéo
+  - Section **Photo**
+    - Titre Photo
+    - Afficher une dizaine de photos
+    - Bouton 'voir toutes les photos'
   - **Pied de page** (commun à toutes les pages)
     - privacy policy
     - lien vers des pages du site
