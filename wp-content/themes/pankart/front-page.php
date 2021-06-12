@@ -2,8 +2,8 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <main class="content">
         <header class="content__hero">
-            <h2 class="content__title">Ceci est le hero</h2>
-            <p class="content__tagline"><?php bloginfo('description'); ?></p>
+            <h2><?php the_title()?></h2>
+            <p>Page d‘accueil</p>
         </header>
         <div class="content__wysiwyg"><?php the_content(); ?></div>
 
