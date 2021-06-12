@@ -1,14 +1,17 @@
 import Pluton from "@whitecube/pluton/pluton";
 
-class EasySpacy {
-    constructor(){
+class Pankart {
+
+    constructor() {
+        //TODO
     }
-    load(){
+    load() {
         this.pluton = new Pluton();
-        console.log('hello pluton here')
+        console.log('Hello Pluton')
     }
+
 }
-window.addEventListener('load', (e)=>{
-    window.EasySpacy = new EasySpacy();
-    window.EasySpacy.load();
-})
+window.addEventListener('load', (e) => {
+    window.Pankart = new Pankart();
+    window.Pankart.load();
+});
