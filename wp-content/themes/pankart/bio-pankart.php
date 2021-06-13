@@ -3,6 +3,16 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <main class="bio-pankart">
         <h2><?php the_title(); ?></h2>
+        <img
+                alt="<?= get_field('pk_photo')['alt']; ?>"
+                width="<?= get_field('pk_photo')['width']; ?>"
+                height="auto"
+                srcset="
+                         <?= get_field('pk_photo')['sizes']['thumbnail']; ?> 150w,
+                         <?= get_field('pk_photo')['sizes']['medium']; ?> 300w,
+                         <?= get_field('pk_photo')['sizes']['medium_large']; ?> 640w,
+                         <?= get_field('pk_photo')['sizes']['large']; ?> 1020w"
+        >
         <div class="content__wysiwyg"><?php the_content(); ?></div>
         <div class="agenda__wrapper">
             <h2>Biographies des membres pankart</h2>
