@@ -1,0 +1,20 @@
+.menu{
+  display: flex;
+  justify-content: space-around;
+  min-width: 50vw;
+  & .menu-item{
+    padding: 1rem;
+  }
+}
+.menu-item-44{
+  position: relative;
+}
+.sub-menu__js{
+  position: absolute;
+  top: 2em;
+  left: 0;
+  width: 250%;
+}
+.sub-menu__hidden{
+  display: none;
+}

@@ -1,0 +1,10 @@
+.nav__logo{
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  & img{
+    padding: 1rem;
+    width: 150px;
+    height: auto;
+  }
+}

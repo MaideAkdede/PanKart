@@ -7,3 +7,26 @@
   padding: 0;
   border: 0;
 }
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: $_18;
+  min-height: 100vh;
+
+  font-family: $font__normal;
+  font-weight: $weight__regular;
+
+  background-color: $_black-alt;
+  color: $_white;
+}
+main{
+  flex: 1;
+}
+a{
+  color: $_white;
+  transition: 0.36s;
+  &:focus, &:hover{
+    color: $_orange;
+  }
+}
