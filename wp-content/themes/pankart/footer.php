@@ -14,7 +14,7 @@
     <div class="footer__menu">
         <h2 class="sro">Menu du pied de page</h2>
         <?php wp_nav_menu(['theme_location' => 'footer']); ?>
-    <p class="end_copyright">© Pankart - 2020-2021</p>
+    <p class="end_copyright">© Panꓘart - 2021 - <?php the_date('Y')?></p>
     </div>
 </footer>
 <?php wp_footer(); ?>

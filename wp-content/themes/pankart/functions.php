@@ -1,4 +1,13 @@
 <?php
+/* * * Return Page Title of : 404  * * */
+add_filter('wp_title', 'theme_slug_filter_wp_title');
+function theme_slug_filter_wp_title($title)
+{
+    if (is_404()) {
+        $title = 'Page Inexistante';
+    }
+    return $title;
+}
 
 /* * * Register navigation menus * * */
 add_action('init', 'pk_custom_navigation_menus');
