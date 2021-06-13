@@ -1,4 +1,4 @@
-export default class subMenu {
+export default class SubMenuHover {
 
     static get selector() {
         return '.sub-menu'
