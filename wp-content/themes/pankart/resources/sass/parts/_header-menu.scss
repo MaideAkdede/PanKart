@@ -1,20 +1,66 @@
-.menu{
+.nav {
+  min-width: 100vw;
+  padding-bottom: 1em;
+  box-shadow: 0 -10px 25px $_orange;
+}
+
+.menu {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   min-width: 50vw;
-  & .menu-item{
+
+  & .menu-item {
     padding: 1rem;
   }
+
+  & a {
+    text-decoration: none;
+    &:hover, &:focus {
+      border-bottom: 8px solid transparent;
+      border-image: url('https://zupimages.net/up/21/23/196f.png') 10% stretch;
+    }
+  }
 }
-.menu-item-44{
+
+.menu-item-44 {
   position: relative;
 }
-.sub-menu__js{
+
+.sub-menu__js {
   position: absolute;
-  top: 2em;
-  left: 0;
-  width: 250%;
+  top: 3em;
+  left: -50%;
+  width: 200%;
 }
-.sub-menu__hidden{
+
+.sub-menu__hidden {
   display: none;
+}
+.sub-menu {
+  background-color: $_orange;
+  & a{
+    color: $_black-alt;
+    &:hover, &:focus {
+      font-weight: $weight__semi-bold;
+      border-bottom: 8px solid transparent;
+      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png') 10% stretch;
+    }
+  }
+  .current_page_item {
+    & a {
+      font-weight: $weight__semi-bold;
+      color: $_black-alt;
+      border-bottom: 8px solid transparent;
+      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png') 10% stretch;
+    }
+  }
+}
+.current_page_item {
+  & a {
+    font-weight: $weight__semi-bold;
+    color: $_orange;
+    border-bottom: 8px solid transparent;
+    border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 10% stretch;
+  }
 }

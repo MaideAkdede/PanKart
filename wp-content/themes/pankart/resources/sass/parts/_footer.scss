@@ -1,0 +1,83 @@
+.footer{
+  text-align: center;
+  color: $_black-alt;
+  font-size: $_14;
+  margin-top: 2rem;
+  padding: 2rem 1rem 0.5rem;
+  min-width: 100vw;
+  box-shadow: 0 -3px 2px $_black-alt;
+  background: linear-gradient(transparent 0%, $_orange 2%);
+  border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png')  12% stretch;
+  &__menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  & a {
+    color: $_black-alt;
+    text-decoration: none;
+    &:hover, &:focus{
+      border-bottom: 8px solid transparent;
+      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png')  10% stretch;
+    }
+  }
+  .current_page_item{
+    & a{
+      font-weight: $weight__semi-bold;
+      color: $_black-alt;
+      border-bottom: 8px solid transparent;
+      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png')  10% stretch;
+    }
+  }
+}
+.social{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: $_32;
+  flex-wrap: wrap;
+
+  &__icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  &__icon{
+    transform: rotate(0);
+    transition: .25s ease;
+  }
+  & a {
+    margin-right: $_14;
+    &:focus, &:hover{
+      border: none;
+      & img{
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &__title{
+    color: $_black-alt;
+    font-family: $font__normal;
+    font-size: $_16;
+    font-weight: $weight__extra-light;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 600px){
+  .social{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 400px){
+  .social{
+   &__icon{
+     width: 45px;
+     height: auto;
+   }
+  }
+}

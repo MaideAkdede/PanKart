@@ -8,20 +8,17 @@
   border: 0;
 }
 body{
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: $_18;
   min-height: 100vh;
-
+  min-width: 100vw;
   font-family: $font__normal;
   font-weight: $weight__regular;
-
   background-color: $_black-alt;
   color: $_white;
-}
-main{
-  flex: 1;
 }
 a{
   color: $_white;
