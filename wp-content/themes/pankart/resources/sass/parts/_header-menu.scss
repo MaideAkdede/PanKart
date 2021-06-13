@@ -17,8 +17,10 @@
   & a {
     text-decoration: none;
     &:hover, &:focus {
-      border-bottom: 8px solid transparent;
-      border-image: url('https://zupimages.net/up/21/23/196f.png') 10% stretch;
+      border-bottom-style: solid;
+      border-bottom-width: 8px;
+      //border-bottom: 8px solid transparent;
+      border-image: url('https://zupimages.net/up/21/23/196f.png') 0 10% 10% 10% / 0 0 8px 0 stretch;
     }
   }
 }
@@ -43,16 +45,10 @@
     color: $_black-alt;
     &:hover, &:focus {
       font-weight: $weight__semi-bold;
-      border-bottom: 8px solid transparent;
-      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png') 10% stretch;
-    }
-  }
-  .current_page_item {
-    & a {
-      font-weight: $weight__semi-bold;
-      color: $_black-alt;
-      border-bottom: 8px solid transparent;
-      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png') 10% stretch;
+      //border-bottom: 8px solid transparent;
+      border-bottom-style: solid;
+      border-bottom-width: 8px;
+      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png')0 10% 10% 10% / 0 0 8px 0 stretch;
     }
   }
 }
@@ -60,7 +56,9 @@
   & a {
     font-weight: $weight__semi-bold;
     color: $_orange;
-    border-bottom: 8px solid transparent;
-    border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 10% stretch;
+    //border-bottom: 8px solid transparent;
+    border-bottom-style: solid;
+    border-bottom-width: 8px;
+    border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 0 10% 10% 10% / 0 0 8px 0 stretch;
   }
 }
