@@ -6,6 +6,7 @@ export default class SubMenuHover {
 
     constructor(element) {
         this.element = element;
+
         this.element.classList.add('sub-menu__js');
         this.element.classList.add('sub-menu__hidden');
 
