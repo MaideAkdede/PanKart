@@ -9,12 +9,16 @@ export default class SubMenuHover {
 
         this.element.classList.add('sub-menu__js');
         this.element.classList.add('sub-menu__hidden');
-
         this.btn = document.querySelector('.menu-item-44 a');
 
         this.btn.addEventListener('click', (e)=>{
             e.preventDefault();
-            this.element.classList.toggle('sub-menu__hidden')
+            this.element.classList.toggle('sub-menu__hidden');
+            if(this.btn.innerHTML === "Fermer"){
+                this.btn.innerHTML = "Autres";
+            } else{
+                this.btn.innerHTML = "Fermer";
+            }
         });
     }
 }
