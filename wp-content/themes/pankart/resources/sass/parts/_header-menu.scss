@@ -20,7 +20,7 @@
       border-bottom-style: solid;
       border-bottom-width: 8px;
       //border-bottom: 8px solid transparent;
-      border-image: url('https://zupimages.net/up/21/23/196f.png') 0 10% 10% 10% / 0 0 8px 0 stretch;
+      border-image: $border_or;
     }
   }
 }
@@ -48,7 +48,7 @@
       //border-bottom: 8px solid transparent;
       border-bottom-style: solid;
       border-bottom-width: 8px;
-      border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png')0 10% 10% 10% / 0 0 8px 0 stretch;
+      border-image: $border_bl;
     }
   }
 }
@@ -59,6 +59,7 @@
     //border-bottom: 8px solid transparent;
     border-bottom-style: solid;
     border-bottom-width: 8px;
-    border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 0 10% 10% 10% / 0 0 8px 0 stretch;
+    border-image: $border_or;
+    //-webkit-border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 0 10% 10% 10% / 0 0 8px 0 stretch;
   }
 }
