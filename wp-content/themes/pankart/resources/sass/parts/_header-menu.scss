@@ -39,13 +39,22 @@
 
   & a {
     color: $_black-alt;
-
     &:hover, &:focus {
       font-weight: $weight__semi-bold;
       //border-bottom: 8px solid transparent;
       border-bottom-style: solid;
       border-bottom-width: 8px;
       border-image: $border_bl;
+    }
+  }
+  .current_page_item {
+    & a {
+      font-weight: $weight__semi-bold;
+      color: $_black-alt;
+      border-bottom-style: solid;
+      border-bottom-width: 8px;
+      border-image: $border_bl;
+
     }
   }
 }

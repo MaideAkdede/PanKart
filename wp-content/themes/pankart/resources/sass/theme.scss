@@ -1,18 +1,19 @@
 @import 'reset';
-
+/* * * UTILITIES * * */
 @import "utilities/colors";
 @import "utilities/fonts";
 @import "utilities/sizes";
 @import "utilities/border";
-
+/* * * ELEMENTS PARTS * * */
 @import "parts/body";
 @import "parts/title";
 @import "parts/main";
 @import "parts/wysiwyg";
 @import "parts/cta";
-
+/* * * PAGE PARTS * * */
 @import "parts/header-logo";
 @import "parts/header-menu";
-
 @import "parts/footer";
+/* * * PAGES * * */
 @import "parts/agenda";
+@import "parts/lyrics";
