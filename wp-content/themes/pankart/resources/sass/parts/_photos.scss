@@ -1,0 +1,58 @@
+.photo {
+  &__gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-columns: auto;
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    padding: 1rem ;
+  }
+  &__div{
+    position: relative;
+    & a{
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(228, 155, 44, 0.50);
+      &:hover, &:focus{
+        background-color: transparent;
+      }
+    }
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (max-width: 900px){
+  .photo__gallery{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.photo__big{
+  display: none;
+}
+.photo__big-active{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & .close{
+    margin-bottom: 1rem;
+    transform: rotate(45deg);
+    &:focus, &:hover{
+      transform: rotate(55deg);
+    }
+  }
+}

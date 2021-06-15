@@ -7,8 +7,8 @@
         <div class="paroles__wrapper">
             <?php $p = new WP_Query([
                 'post_type' => 'parole',
-                'orderby' => 'date',
-                'order' => 'desc'
+                'orderby' => 'title',
+                'order' => 'asc'
             ]);
             if ($p->have_posts()) : while ($p->have_posts()) : $p->the_post(); ?>
                 <div class="accordion">

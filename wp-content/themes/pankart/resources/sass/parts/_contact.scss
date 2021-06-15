@@ -2,6 +2,7 @@
   &__wrapper{
     display: flex;
     flex-wrap: wrap;
+    width: 90vw;
   }
   & p{
     margin: 1em 0;
@@ -13,7 +14,6 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    min-width: 500px;
     & label{
       color: $_orange;
       //font-variant: all-small-caps;
@@ -116,4 +116,7 @@
     cursor: none;
     text-decoration: none;
   }
+}
+.wpcf7-response-output{
+  order: -1;
 }

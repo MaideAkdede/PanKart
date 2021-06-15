@@ -1,0 +1,37 @@
+.bio-member{
+  & .content__wysiwyg{
+    max-width: 50ch;
+  }
+  &__wrapper{
+    margin: 2rem 0;
+  }
+  &__title{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  &__role{
+    color: $-orange;
+  }
+  &__img{
+    padding: 0 2rem;
+  }
+}
+@media screen and (min-width: 1024px){
+  .bio-member{
+    &__wrapper{
+      display: flex;
+      flex-direction: row;
+    }
+    &__title{
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    &__role{
+      color: $-orange;
+    }
+    &__img{
+      padding: 0 2rem;
+
+    }
+  }
+}

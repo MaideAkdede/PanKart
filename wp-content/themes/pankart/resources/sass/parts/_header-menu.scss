@@ -3,7 +3,9 @@
   padding-bottom: 1em;
   box-shadow: 0 -10px 25px $_orange;
 }
-
+.header{
+  background-color: $_black-alt;
+}
 .menu {
   display: flex;
   justify-content: space-around;
@@ -54,7 +56,6 @@
       border-bottom-style: solid;
       border-bottom-width: 8px;
       border-image: $border_bl;
-
     }
   }
 }
@@ -81,5 +82,72 @@
     border-bottom-width: 8px;
     border-image: $border_or;
     //-webkit-border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 0 10% 10% 10% / 0 0 8px 0 stretch;
+  }
+}
+.toggleMenu {
+  display: none;
+}
+@media screen and (max-width: 720px) {
+  .nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .toggleMenu {
+    display: inline-flex;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: $_14;
+    letter-spacing: 1px;
+    & img{
+      width: 45px;
+      height: 45px;
+    }
+    &:focus, &:hover {
+      cursor: pointer;
+      color: $_orange;
+    }
+  }
+  .control-me {
+    display: none;
+  }
+  #toggleMenu:checked ~ .control-me {
+    display: initial;
+    position: relative;
+    .menu {
+      z-index: 5;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      right: 0;
+      box-shadow: 0 0 5px 5px $_orange;
+      position: absolute;
+      background-color: $_orange;
+      margin-top: 2rem;
+      & .menu-item {
+        padding: 1rem;
+      }
+
+      & a {
+        text-decoration: none;
+        color: $_black-alt;
+
+        &:hover, &:focus {
+          border-bottom-style: solid;
+          border-bottom-width: 8px;
+          border-image: $border-bl;
+        }
+      }
+
+      .menu-item-44 {
+        position: relative;
+
+        .sub-menu {
+          width: auto;
+          top: 3em;
+          left: 4%;
+        }
+      }
+    }
   }
 }

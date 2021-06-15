@@ -9,8 +9,16 @@
                 'order' => 'desc'
             ]);
             if ($p->have_posts()) : while ($p->have_posts()) : $p->the_post(); ?>
-                <?php the_title(); ?>
-                <a href=""></a>
+               <div class="news">
+                   <h3 class="news__title"><?php the_title(); ?></h3>
+                   <div class="content__wysiwyg">
+                       <?= wp_trim_words(get_the_content(), 30, "...");?>
+                       <a class="news__link" href="<?php the_permalink(); ?>" title="Lire la news : <?= get_the_title(); ?>">
+                           Lire plus <span class="sro">sur  <?= get_the_title(); ?></span>
+                       </a>
+                   </div>
+
+               </div>
             <?php endwhile; else: ?>
                Aucune News pour le moment.
             <?php endif; ?>

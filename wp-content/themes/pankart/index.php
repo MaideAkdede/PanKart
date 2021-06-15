@@ -2,7 +2,6 @@
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
     <main class="content">
         <div class="wysiwyg">
-
             <?php the_title(); ?>
             <?php the_content(); ?>
         </div>

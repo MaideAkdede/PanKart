@@ -27,13 +27,13 @@
                     <td class="date" data-label="Date"> <?= get_field('date'); ?></td>
                     <td class="title" data-label="Titre"> <?= get_the_title(); ?></td>
                     <td class="country" data-label="Lieu"><?= get_field('city'); ?> (<?= get_field('country'); ?>)</td>
-                    <td class="address"><a href="../contact" class="cta" title="Nous contacter pour réserver">Réserver</a></td>
+                    <td class="address"><a href="../contact" class="cta"
+                                           title="Nous contacter pour réserver">Réserver</a></td>
                 </tr>
             <?php endwhile; endif; ?>
             </tbody>
         </table>
     </div>
-
 <?php endwhile; else: ?>
     <p class="empty">Aucune revue de presses n'a été ajouté</p>
 <?php endif; ?>

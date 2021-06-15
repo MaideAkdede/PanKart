@@ -1,0 +1,11 @@
+.home {
+  & .bio {
+    &__content {
+      max-width: 15em;
+      & img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}

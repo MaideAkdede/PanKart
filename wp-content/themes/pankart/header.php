@@ -26,15 +26,23 @@
     <?php wp_head(); ?>
 </head>
 <body>
-<header class="">
+<header class="header">
     <h1 class="sro"><?= is_front_page() ? 'Accueil' : trim(wp_title('Panꓘart •')); ?></h1>
     <nav class="nav">
-        <a href="<?php site_url(); ?>" title="Retourner à l‘acceuil" class="nav__logo">
+        <a href="<?= site_url(); ?>" title="Retourner à l‘acceuil" class="nav__logo">
             <img src="<?php echo get_template_directory_uri() . '/resources/img/pankart_petit.png' ?>"
                  alt="Pankart" width="150">
         </a>
         <h2 class="sro">Menu principal</h2>
-        <?php wp_nav_menu(['theme_location' => 'main']); ?>
+        <label for="toggleMenu" class="toggleMenu">
+            <img src="<?php echo get_template_directory_uri() . '/resources/img/menuBurger.png' ?>"
+                 alt="Menu"
+                 width="45">
+        </label>
+        <input type="checkbox" id="toggleMenu" class="sro">
+        <div class="control-me">
+            <?php wp_nav_menu(['theme_location' => 'main']); ?>
+        </div>
     </nav>
     <a href="#" title="Remonter en haut de la page"
     class="up__link">
