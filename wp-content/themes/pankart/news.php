@@ -4,7 +4,7 @@
     <main class="new">
         <h2><?php the_title(); ?></h2>
         <div class="news__wrapper"><?php $p = new WP_Query([
-                'post_type' => 'parole',
+                'post_type' => 'news',
                 'orderby' => 'date',
                 'order' => 'desc'
             ]);

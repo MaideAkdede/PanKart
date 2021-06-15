@@ -7,6 +7,7 @@
                 alt="<?= get_field('pk_photo')['alt']; ?>"
                 width="<?= get_field('pk_photo')['width']; ?>"
                 height="auto"
+                sizes="80vw"
                 srcset="
                          <?= get_field('pk_photo')['sizes']['thumbnail']; ?> 150w,
                          <?= get_field('pk_photo')['sizes']['medium']; ?> 300w,
@@ -27,6 +28,7 @@
                     <div class="img__container">
 
                         <img
+                                sizes="30vw"
                                 alt="<?= get_field('bio_img')['alt']; ?>"
                                 width="<?= get_field('bio_img')['width']; ?>"
                                 height="<?= get_field('bio_img')['height']; ?>"
