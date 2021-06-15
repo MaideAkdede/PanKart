@@ -139,6 +139,22 @@ function pk_custom_post_type()
             'slug' => 'videos'
         ]
     ]);
+    register_post_type('punchline', [
+        'label' => 'Punchlines',
+        'labels' => [
+            'singular_name' => 'punchline',
+            'add_new' => 'Ajouter une punch line',
+            'add_new_item' => 'Nouvelle Punch Line',
+        ],
+        'description' => 'Liste de nos punch lines',
+        'public' => true,
+        'menu_position' => 7,
+        'menu_icon' => 'dashicons-hammer',
+        'supports' => ['title'],
+        'rewrite' => [
+            'slug' => 'punchlines'
+        ]
+    ]);
 }
 
 /* * * Return a compiled assets URI * * */

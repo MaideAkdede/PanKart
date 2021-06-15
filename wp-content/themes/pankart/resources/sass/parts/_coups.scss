@@ -1,0 +1,60 @@
+.coups{
+  align-content: center;
+  & h2{
+    max-width: 20ch;
+    text-align: center;
+  }
+  &__list{
+    padding: 0 2rem;
+  }
+
+  & .coup{
+    max-width: 600px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border-style: solid;
+    border-width: 8px;
+    border-image: $border_square-or;
+
+    position: relative;
+    &__coeur{
+      animation: coeur 0.78s linear alternate infinite;
+    }
+    &__date{
+      font-weight: $weight__extra-light;
+      font-size: $_14;
+      text-align: right;
+      margin-top: 1rem;
+    }
+    &__msg{
+      font-weight: $weight__extra-light;
+    }
+    &__gueule{
+      background-color: $_black-alt;
+      border-radius: 50%;
+      box-shadow: 0 0 3px 3px $_black-alt;
+    }
+    &__option{
+      position: absolute;
+      top: -30px;
+      left: -30px;
+      transform: rotate(-15deg) scale(1);
+    }
+  }
+}
+@keyframes coeur {
+  from{
+    transform: rotate(-15deg) scale(1);
+  }
+  to {
+    transform: rotate(-15deg) scale(1.3);
+  }
+}
+@keyframes gueule {
+  from{
+    transform: rotate(-15deg);
+  }
+  to {
+    transform: rotate(15deg);
+  }
+}

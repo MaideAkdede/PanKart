@@ -3,10 +3,6 @@
   padding: 0.5em 1em;
   border-style: solid;
   border-width: 8px;
-  //border: 8px solid transparent;
-  //-moz-border-image:  url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 10% stretch;
-  //-webkit-border-image:  url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 10% stretch;
-  //-o-border-image:  url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border-or.png') 10% stretch;
   border-image: $border_square-or;
   &:hover, &:focus{
     text-decoration: underline;
