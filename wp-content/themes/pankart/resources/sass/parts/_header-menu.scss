@@ -20,7 +20,6 @@
     &:hover, &:focus {
       border-bottom-style: solid;
       border-bottom-width: 8px;
-      //border-bottom: 8px solid transparent;
       border-image: $border_or;
     }
   }
@@ -30,15 +29,15 @@
   position: relative;
 }
 
-
-
 .sub-menu {
   background-color: $_orange;
   display: flex;
   flex-direction: row;
+  box-shadow: 0 0 5px 5px #e49b2c;
 
   & a {
     color: $_black-alt;
+
     &:hover, &:focus {
       font-weight: $weight__semi-bold;
       //border-bottom: 8px solid transparent;
@@ -47,6 +46,7 @@
       border-image: $border_bl;
     }
   }
+
   .current_page_item {
     & a {
       font-weight: $weight__semi-bold;
@@ -58,17 +58,20 @@
     }
   }
 }
+
 .sub-menu__js {
   z-index: 3;
   position: absolute;
   top: 3em;
-  left: -100%;
+  left: -50%;
   width: 200%;
   flex-direction: column;
 }
+
 .sub-menu__hidden {
   display: none;
 }
+
 .current_page_item {
   & a {
     font-weight: $weight__semi-bold;

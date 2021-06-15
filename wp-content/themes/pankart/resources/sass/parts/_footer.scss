@@ -2,12 +2,10 @@
   text-align: center;
   color: $_black-alt;
   font-size: $_14;
-  margin-top: 2rem;
   padding: 2rem 1rem 0.5rem;
   min-width: 100vw;
   box-shadow: 0 -3px 2px $_black-alt;
   background: linear-gradient(transparent 0%, $_orange 2%);
-  //border-image: url('http://localhost:8888/PanKart/wp-content/uploads/2021/06/border.png')  12% stretch;
   &__menu{
     display: flex;
     justify-content: center;
@@ -18,7 +16,6 @@
     color: $_black-alt;
     text-decoration: none;
     &:hover, &:focus{
-      //border-bottom: 8px solid transparent;
       border-bottom-style: solid;
       border-bottom-width: 8px;
       -webkit-border-image: $border_bl;
@@ -76,13 +73,24 @@
   .social{
     flex-direction: column;
     align-items: flex-start;
-  }
-}
-@media screen and (max-width: 400px){
-  .social{
+    &__title{
+      font-size: $_14;
+    }
+    &__icons{
+      justify-content: flex-start;
+    }
    &__icon{
-     width: 45px;
+     width: 28px;
      height: auto;
    }
+  }
+}
+
+@media screen and (max-width: 900px){
+  .social{
+    &__icon{
+      width: 32px;
+      height: auto;
+    }
   }
 }

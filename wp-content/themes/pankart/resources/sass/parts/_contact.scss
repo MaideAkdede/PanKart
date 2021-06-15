@@ -1,0 +1,119 @@
+.contact{
+  &__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  & p{
+    margin: 1em 0;
+  }
+  &__form{
+    font-size: $_18;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 500px;
+    & label{
+      color: $_orange;
+      //font-variant: all-small-caps;
+      font-size: $_14;
+      text-transform: uppercase;
+      &:focus, &:hover{
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+    & input, & textarea{
+      margin-top: 1rem;
+      padding: 0.5em 0 0.7em 1em ;
+      color: $_white;
+      border: none;
+      background-color: rgba(108, 108, 108, 0.4);
+      box-shadow: 0 0 5px 5px rgba(108, 108, 108, 0.4);
+    }
+  }
+  &__info{
+    padding: 3rem;
+    min-width: 30vw;
+  }
+  &__icon{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 1em;
+    &:hover, &:focus{
+      align-items: center;
+      text-decoration: none;
+      border-bottom-style: solid;
+      border-bottom-width: 8px;
+      border-image: $border_or;
+    }
+    & img{
+      margin-right: 1em;
+    }
+  }
+}
+.wpcf7{
+  width: 100%;
+}
+.wpcf7-form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  & p {
+    width: 100%;
+  }
+  & input, & textarea {
+    width: 100%;
+    letter-spacing: 1px;
+    line-height: 125%;
+  }
+  & textarea {
+    max-width: 900px;
+    min-height: 150px;
+  }
+  & .wpcf7-submit {
+    padding: 0.5em 1em;
+    border-style: solid;
+    text-transform: uppercase;
+    font-weight: $weight__semi-bold;
+    border-width: 8px;
+    letter-spacing: 1px;
+    color: $_orange;
+    border-image: $border_square-or;
+    background-color: transparent;
+    transition: 0.15s ease;
+
+    &:hover, &:focus {
+      text-decoration: underline;
+      cursor: pointer;
+      letter-spacing: 3px;
+      border-width: 10px;
+
+    }
+  }
+}
+.wpcf7-select{
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  background-color: transparent;
+  border: 1px solid $_white;
+  color: $_white;
+  letter-spacing: 1px;
+  &:focus, &:hover{
+    cursor: pointer;
+    border: 1px solid $_orange;
+    color: $_orange;
+  }
+}
+.wpcf7-not-valid-tip{
+  text-decoration: none;
+  color: $_orange-dark;
+  margin-left: 2rem;
+  font-weight: $weight__semi-bold;
+  letter-spacing: 3px;
+  &:focus, &:hover{
+    cursor: none;
+    text-decoration: none;
+  }
+}

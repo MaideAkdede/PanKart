@@ -16,4 +16,7 @@
     border-width: 8px;
     border-image: $border_square-bl;
   }
+  &__error{
+    margin: 2rem 0 2rem;
+  }
 }
